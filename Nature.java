@@ -16,11 +16,11 @@ public class Nature {
         hawkeye.takeOff();
         hawkeye.ascend(120);
         hawkeye.ascend(30);
-        hawkeye.glide();
+        // hawkeye.glide();
         hawkeye.descend(140);
         hawkeye.land();
         hawkeye.descend(9);
-        hawkeye.land();
+        // hawkeye.land();
 
     }
 }
