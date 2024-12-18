@@ -45,6 +45,9 @@ public class Eagle extends Bird implements Fly{
         if( this.flying && this.altitude>=0){
             this.altitude-=altitude;
             if (this.altitude<=1){
+                if(this.altitude<0){
+                this.altitude=0; 
+                } 
                 System.out.println(this.getName() + " flies downward, altitude : " +this.altitude);
                 land();
             } else {

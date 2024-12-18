@@ -19,7 +19,7 @@ public class Nature {
         // hawkeye.glide();
         hawkeye.descend(140);
         hawkeye.land();
-        hawkeye.descend(11);
+        hawkeye.descend(30);
         System.out.println(hawkeye.getAltitude());
         // hawkeye.land();
 
