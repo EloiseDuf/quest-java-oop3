@@ -22,7 +22,7 @@ public class Eagle extends Bird implements Fly{
     }
 
 
-    public void isFlying(boolean flying) {
+    public void setFlying(boolean flying) {
         this.flying=flying;
     }
 
