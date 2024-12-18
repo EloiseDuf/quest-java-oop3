@@ -17,6 +17,15 @@ public class Eagle extends Bird implements Fly{
         return flying;
     }
 
+    public void setAltitude(int altitude) {
+        this.altitude=altitude;
+    }
+
+
+    public void isFlying(boolean flying) {
+        this.flying=flying;
+    }
+
     @Override
     public String sing() {
         return "Screech!";
@@ -66,7 +75,7 @@ public class Eagle extends Bird implements Fly{
     }
 
     public int ascend(int altitude){
-        if( this.flying){
+        if(this.flying){
             this.altitude+=altitude;
             System.out.println(this.getName() + " flies upward, altitude : " +this.altitude);
             if (this.altitude>=150){
